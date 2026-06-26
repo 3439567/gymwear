@@ -7,7 +7,7 @@ function Products() {
   const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/products')
+    axios.get('https://gymwear-shop.onrender.com/api/products')
       .then(res => setProducts(res.data))
       .catch(err => console.error("Error fetching products:", err));
   }, []);
