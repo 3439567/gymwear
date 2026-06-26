@@ -1,0 +1,50 @@
+.hero-slide {
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.slick-slider{
+    overflow:hidden;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  text-align: center;
+}
+
+.overlay h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.overlay button {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  padding: 15px 35px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #e55f00;
+}

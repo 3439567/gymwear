@@ -1,0 +1,55 @@
+.modal-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.85);
+    z-index:9999;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.modal-content{
+    display:flex;
+    gap:30px;
+}
+
+.reel-video{
+    width:350px;
+    height:650px;
+    object-fit:cover;
+    border-radius:20px;
+}
+
+.product-box{
+    width:300px;
+    background:white;
+    padding:20px;
+    border-radius:20px;
+}
+
+.product-box img{
+    width:100%;
+    border-radius:10px;
+}
+
+.product-box button{
+    width:100%;
+    padding:14px;
+    border:none;
+    background:black;
+    color:white;
+    margin-top:15px;
+    cursor:pointer;
+}
+
+.close-btn{
+    position:absolute;
+    top:30px;
+    right:40px;
+    font-size:40px;
+    background:none;
+    border:none;
+    color:white;
+    cursor:pointer;
+}

@@ -1,0 +1,35 @@
+.product-section{
+    max-width:1400px;
+    margin:80px auto;
+    padding:0 20px;
+}
+
+.product-section h2{
+    margin-bottom:40px;
+    font-size:32px;
+}
+
+.product-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:30px;
+}
+
+.view-all-container{
+    text-align:center;
+    margin-top:50px;
+}
+
+.view-all-btn{
+    background:#ff6b00;
+    color:white;
+    border:none;
+    padding:15px 40px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.view-all-btn:hover{
+    background:#e55f00;
+}
