@@ -26,7 +26,7 @@ const razorpay = new Razorpay({
 
 // Product Routes
 const productRoutes = require('./routes/productRoutes');
-// app.use('/api/products', productRoutes);
+ app.use('/api/products', productRoutes);
 
 // Home Route
 app.get('/', (req, res) => {
